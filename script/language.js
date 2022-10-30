@@ -39,10 +39,17 @@ const langArr = {
         en:"Feedback",
         ua:"Зворотній зв'язок"
     },
+    aboutCardTitle2: {
+        en:"Aim",
+        ua:"Ціль"
+    },
     aboutCardText1: {
         en:"you can contact me at a time convenient for you",
         ua:"ви можете зв'язатися зі мною в зручний для вас час"
-        
+    },
+    aboutCardText2: {
+        en:"My aim is to do only quality and good work",
+        ua:"Моя ціль робити тільки якісну і хорошу роботу"
     },
     aboutBtn: {
         en:"Contact me",

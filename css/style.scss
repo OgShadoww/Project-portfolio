@@ -334,6 +334,7 @@ html {
                 transition: $transition;
                 opacity: 0;
                 transform: translate(0, -50%);
+                border-radius: 18px;
 
                 &.anim_show {
                     opacity: 1;
@@ -480,7 +481,6 @@ html {
             border: 1px solid #3D3AC8;
             border-radius: 50px;
             margin-right: 50px;
-            // padding-top: 20px;
             display: flex;
             flex-direction: column;
             position: relative;
@@ -1143,7 +1143,67 @@ html {
 }
 
 // media query
+@media(max-width:2820px) {
+    .about {
 
+        &__content {
+            justify-content: center;
+            align-items: center;
+
+            &__block {
+                left: 150px;
+            }
+        }
+    }
+    .experience {
+
+        &__conteiner {
+
+            &__item {
+                width: 600px;
+
+                &__title {
+                    margin-bottom: 3%;
+                }
+            }
+        }
+    }
+    .portfolio {
+
+        &__conteiner {
+
+            &__card {
+                width: 500px;
+            }
+        }
+    }
+}
+@media(max-width:1620px) {
+    .portfolio {
+
+        &__conteiner {
+
+            &__card {
+                width: 30%;
+            }
+        }
+    }
+}
+@media(max-width:1520px) {
+    .experience {
+
+        &__conteiner {
+
+            &__item {
+                width: 42%;
+
+                &__title {
+                    margin-bottom: 5%;
+                }
+            }
+        }
+    }
+}
 @media(max-width:1189px){
     .about {
 
@@ -1163,7 +1223,7 @@ html {
             }
             &__block {
                 max-width: 550px;
-                left: 340px;
+                left: 130px;
                 top: -160px;
             }
         }
@@ -1279,6 +1339,7 @@ html {
             }
             &__block {
                 position: static;
+                align-self: flex-start;
             }
             &__text {
                 max-width: 80%;
@@ -1791,6 +1852,12 @@ html {
                         }
                     }
                 }
+                &__lines__flex {
+                    
+                    .line {
+                        width: 55px;
+                    }
+                }
             }
         }
     }
@@ -1919,6 +1986,12 @@ html {
                     }
                     &__subtitle {
                         font-size: 12px;
+                    }
+                }
+                &__lines {
+
+                    .line {
+                        height: 60px;
                     }
                 }
             }
