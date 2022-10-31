@@ -43,6 +43,10 @@ const langArr = {
         en:"Aim",
         ua:"Ціль"
     },
+    aboutCardTitle3: {
+        en:"Time",
+        ua:"Час"
+    },
     aboutCardText1: {
         en:"you can contact me at a time convenient for you",
         ua:"ви можете зв'язатися зі мною в зручний для вас час"
@@ -50,6 +54,10 @@ const langArr = {
     aboutCardText2: {
         en:"My aim is to do only quality and good work",
         ua:"Моя ціль робити тільки якісну і хорошу роботу"
+    },
+    aboutCardText3: {
+        en:"I do everything quickly, qualitatively and on time",
+        ua:"Роблю все швидко, якісно та вчасно"
     },
     aboutBtn: {
         en:"Contact me",
