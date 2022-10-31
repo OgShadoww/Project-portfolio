@@ -2091,6 +2091,8 @@ html {
   .begin__information__button {
     -webkit-transition: 0.6s;
     transition: 0.6s;
+    -webkit-transition-delay: .8s;
+            transition-delay: .8s;
     -webkit-transform: translate(-20%, 0);
             transform: translate(-20%, 0);
   }

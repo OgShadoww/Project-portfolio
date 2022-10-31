@@ -1731,6 +1731,7 @@ html {
             }
             &__button {
                 transition: $transition;
+                transition-delay: .8s;
                 transform: translate(-20%, 0);
 
                 &:nth-child(2) {
