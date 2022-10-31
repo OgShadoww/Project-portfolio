@@ -67,6 +67,7 @@ html {
 
 .button-filled {
     background-color: $color2;
+    color: #000;
     border: none;
     padding: 15px 15px;
     border-radius: 15px;
@@ -1625,6 +1626,26 @@ html {
 @media(max-width:650px) {
     .begin {
         
+        &__information {
+
+            &__title {
+                transform: translate(-50%, 0);
+            }
+            &__name {
+                transform: translate(50%, 0);
+            }
+            &__button {
+
+                a { 
+                    transition: $transition;
+                    transform: translate(50%, 0);
+    
+                    &:nth-child(2) {
+                        transform: translate(-50%, 0);
+                    }
+                }
+            }
+        }
         &__content {
 
             &__scroll {

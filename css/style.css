@@ -61,6 +61,7 @@ html {
 
 .button-filled {
   background-color: #6C93CD;
+  color: #000;
   border: none;
   padding: 15px 15px;
   border-radius: 15px;
@@ -1999,6 +2000,24 @@ html {
 }
 
 @media (max-width: 650px) {
+  .begin__information__title {
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .begin__information__name {
+    -webkit-transform: translate(50%, 0);
+            transform: translate(50%, 0);
+  }
+  .begin__information__button a {
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    -webkit-transform: translate(50%, 0);
+            transform: translate(50%, 0);
+  }
+  .begin__information__button a:nth-child(2) {
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
   .begin__content__scroll {
     font-size: 18px;
   }
