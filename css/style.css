@@ -276,18 +276,6 @@ html {
           transform: translate(0, 0);
 }
 
-.begin__information__buttons a {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-  -webkit-transform: translate(150%, 0);
-          transform: translate(150%, 0);
-}
-
-.begin__information__buttons a:nth-child(2) {
-  -webkit-transform: translate(-150%, 0);
-          transform: translate(-150%, 0);
-}
-
 .begin__information__button {
   margin-right: 10px;
   -webkit-transform: translate(-150%, 0);
@@ -2100,15 +2088,19 @@ html {
     -webkit-transform: translate(50%, 0);
             transform: translate(50%, 0);
   }
-  .begin__information__button a {
+  .begin__information__button {
     -webkit-transition: 0.6s;
     transition: 0.6s;
+    -webkit-transform: translate(-20%, 0);
+            transform: translate(-20%, 0);
+  }
+  .begin__information__button:nth-child(2) {
     -webkit-transform: translate(20%, 0);
             transform: translate(20%, 0);
   }
-  .begin__information__button a:nth-child(2) {
-    -webkit-transform: translate(-20%, 0);
-            transform: translate(-20%, 0);
+  .begin__information__button.anim_show {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
   }
   .begin__content__scroll {
     font-size: 18px;

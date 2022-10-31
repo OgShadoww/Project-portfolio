@@ -229,16 +229,6 @@ html {
                 transform: translate(0, 0);
             }
         }
-        &__buttons {
-            a { 
-                transition: $transition;
-                transform: translate(150%, 0);
-
-                &:nth-child(2) {
-                    transform: translate(-150%, 0);
-                }
-            }
-        }
         &__button {
             margin-right: 10px;
             transform: translate(-150%, 0);
@@ -1740,14 +1730,14 @@ html {
                 transform: translate(50%, 0);
             }
             &__button {
+                transition: $transition;
+                transform: translate(-20%, 0);
 
-                a { 
-                    transition: $transition;
+                &:nth-child(2) {
                     transform: translate(20%, 0);
-    
-                    &:nth-child(2) {
-                        transform: translate(-20%, 0);
-                    }
+                }
+                &.anim_show {
+                    transform: translate(0, 0);
                 }
             }
         }
