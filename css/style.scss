@@ -891,6 +891,7 @@ html {
         border-radius: 50px;
         background: $color1;
         margin-bottom: 50px;
+        cursor: pointer;
 
         .swiper-conteiner {
             border-radius: 50px;
@@ -946,9 +947,12 @@ html {
             background: #6C93CD;
             border: none;
             position: static;
-        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
             &:after {
-                opacity: 0;
+                display: none;
             }
             .drop-arrow {
                 border: solid #000000;
@@ -958,11 +962,9 @@ html {
             
                 &-next {
                     transform: rotate(-44deg);
-                    margin-left: 15px;
                 }
                 &-prev {
                     transform: rotate(-228deg);
-                    margin-left: 30px;
                 }
             }
             .swiper-button-prev {

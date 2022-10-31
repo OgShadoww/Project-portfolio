@@ -1224,6 +1224,7 @@ html {
   border-radius: 50px;
   background: #373590;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .testimonials__conteiner .swiper-conteiner {
@@ -1303,10 +1304,19 @@ html {
   background: #6C93CD;
   border: none;
   position: static;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .testimonials__conteiner__button:after {
-  opacity: 0;
+  display: none;
 }
 
 .testimonials__conteiner__button .drop-arrow {
@@ -1319,13 +1329,11 @@ html {
 .testimonials__conteiner__button .drop-arrow-next {
   -webkit-transform: rotate(-44deg);
           transform: rotate(-44deg);
-  margin-left: 15px;
 }
 
 .testimonials__conteiner__button .drop-arrow-prev {
   -webkit-transform: rotate(-228deg);
           transform: rotate(-228deg);
-  margin-left: 30px;
 }
 
 .testimonials__conteiner__button .swiper-button-prev {

@@ -63,6 +63,10 @@ const langArr = {
         en:"Contact me",
         ua:"Звязатись зі мною"
     },
+    aboutText: {
+        en:"I'm a web developer, my goal is to master full stack development, now I'm finishing the study of front-end development. On this site I will update information and show what technologies I have mastered. you can always contact me. I am ready to help every person",
+        ua:"Я веб розробник, моя ціль освоїти фулл стак розробку, зараз я завершую вивчення фронтенд розробки. На цьому сайті я буду оновлювати інформацію і показувати які технології я освоїв. ти завжди можеш звязатись зі мною. Я готовий допомогти кожній людині "
+    },
     experienceTitle: {
         en:"My experience",
         ua:"Мій досвід"
