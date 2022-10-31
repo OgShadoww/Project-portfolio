@@ -109,7 +109,7 @@ const langArr = {
     },
     portfolioSubtitle : {
         en:"My Recent Work",
-        ua:"Моя останні роботи"
+        ua:"Мої останні роботи"
     },
     PortfolioItemTitle1 : {
         en:"Crypto Company ToTheMoon & trading courses",
