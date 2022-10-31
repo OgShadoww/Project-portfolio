@@ -962,9 +962,11 @@ html {
             
                 &-next {
                     transform: rotate(-44deg);
+                    margin-left: -7px;
                 }
                 &-prev {
                     transform: rotate(-228deg);
+                    margin-right: -7px;
                 }
             }
             .swiper-button-prev {

@@ -1329,11 +1329,13 @@ html {
 .testimonials__conteiner__button .drop-arrow-next {
   -webkit-transform: rotate(-44deg);
           transform: rotate(-44deg);
+  margin-left: -7px;
 }
 
 .testimonials__conteiner__button .drop-arrow-prev {
   -webkit-transform: rotate(-228deg);
           transform: rotate(-228deg);
+  margin-right: -7px;
 }
 
 .testimonials__conteiner__button .swiper-button-prev {
