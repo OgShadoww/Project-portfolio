@@ -1623,7 +1623,7 @@ html {
         }
     }
 }
-@media(max-width:650px) {
+@media(max-width:670px) {
     .begin {
         
         &__information {
@@ -1638,10 +1638,10 @@ html {
 
                 a { 
                     transition: $transition;
-                    transform: translate(50%, 0);
+                    transform: translate(20%, 0);
     
                     &:nth-child(2) {
-                        transform: translate(-50%, 0);
+                        transform: translate(-20%, 0);
                     }
                 }
             }
