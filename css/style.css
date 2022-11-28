@@ -1103,11 +1103,6 @@ html {
   transition: .4s;
 }
 
-.portfolio__conteiner__card__picture:hover {
-  -webkit-filter: blur(2px) brightness(80%);
-          filter: blur(2px) brightness(80%);
-}
-
 .portfolio__conteiner__card__title {
   font-weight: 500;
   place-self: start;

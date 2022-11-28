@@ -792,9 +792,6 @@ html {
                     border-radius: 30px;
                     transition: .4s;
                 }
-                &:hover {
-                    filter: blur(2px) brightness(80%);
-                }
             }
             &__title {
                 font-weight: 500;
