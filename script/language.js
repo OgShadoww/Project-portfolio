@@ -120,8 +120,8 @@ const langArr = {
         ua:"Криптокомпанія ToTheMoon & торгові курси"
     },
     PortfolioItemTitle2 : {
-        en:"Quiz app on JavaScript",
-        ua:"Програма опитування на JavaScript"
+        en:" Modern Website on React & Tailwind & Framer motion",
+        ua:"Сучасний сайт на React & Tailwind & Framer motion"
     },
     testimonialsTitle: {
         en:"Testimonials",
