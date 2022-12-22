@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    height: 80px;
+}
+  
+.header__switch__language {
+    float: right;
+    margin-right: 5%;
+    margin-top: 1.5%;
+    color: #77A0DD;
+}

@@ -1,0 +1,124 @@
+.footer {
+    background-color: #79A6E9;
+    padding-bottom: 150px;
+    padding-top: 40px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  
+  .footer__title {
+    color: #373590;
+    margin-bottom: 30px;
+  }
+  
+  .footer__navbar {
+    margin-bottom: 30px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .footer__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  .footer__menu__item {
+    margin-right: 30px;
+  }
+  
+  .footer__menu__item:last-child {
+    margin-right: 0;
+  }
+  
+  .footer__menu__item a {
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #584A90;
+  }
+  
+  .footer__menu__item a:hover {
+    color: #38297a;
+  }
+  
+  .footer__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .footer__social__item {
+    background: #223579;
+    border-radius: 24px;
+    width: 80px;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  
+  .footer__social__item__icon {
+    -webkit-transition: .3s;
+    transition: .3s;
+    width: 50%;
+  }
+  
+  .footer__social__item:hover {
+    background-color: #314baa;
+  }
+  
+  .footer__social__item:hover .footer__social__item__icon {
+    width: 46%;
+  }
+  
+  .footer__social a {
+    margin-right: 20px;
+  }
+  
+  .footer__social a:last-child {
+    margin-right: 0;
+  }
+  
+  .footer__copyright {
+    color: #584A90;
+  }
